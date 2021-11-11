@@ -1,16 +1,13 @@
 :root {
   --color-primary: #000000;
-  --color-primary-disabled: rgb(225,225,225);
-  --color-secondary: #FFFFFF;
-  --color-header-bg: #F4D0CA;
-  --color-challenge-message-bg: #B4C4FF;
-  --color-challenge-active-bg: #FFEED3;
-  --color-challenge-active-border: #FFC700;
+  --color-secondary: #F84444;
+  --color-button-bg: #F0F0F0;
+  --color-button-bg-danger:#F84444;
   --gap-xsmall: 1.375em;
   --gap-small: 1.75em;
   --gap-normal: 2.375em;
   --gap-big: 2.75em;
-  --section-gap: 1.75em 2.375em;
+  --section-main-gap: 1.5em 0 ;
   --font-primary: 'Roboto', sans-serif;
   --font-secondary: 'PT Serif', serif; }
 
@@ -196,13 +193,12 @@ th {
   padding: 0; }
 
 .row {
-  --row-max-width: 67.125em;
+  --row-max-width: 72.5em;
+  --row-gap: 2.5em;
+  width: calc(100% - var(--row-gap) * 2);
   max-width: var(--row-max-width);
   margin-left: auto;
   margin-right: auto; }
-
-.row-slim {
-  --row-max-width: 42.5em; }
 
 .section-fullwidth {
   padding: var(--section-gap); }
