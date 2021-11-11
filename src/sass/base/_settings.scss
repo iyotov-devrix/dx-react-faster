@@ -1,0 +1,19 @@
+:root {
+    //colors
+    --color-primary: #000000;
+    --color-primary-disabled: rgb(225,225,225);
+    --color-secondary: #FFFFFF;
+    --color-header-bg: #F4D0CA;
+    --color-challenge-message-bg: #B4C4FF;
+    --color-challenge-active-bg: #FFEED3;
+    --color-challenge-active-border: #FFC700;
+
+    //spacing
+    --gap-xsmall: 1.375em;
+    --gap-small: 1.75em;
+    --gap-normal: 2.375em;
+    --gap-big: 2.75em;
+    --section-gap: 1.75em 2.375em;
+    --font-primary: 'Roboto', sans-serif;
+    --font-secondary: 'PT Serif', serif;
+}

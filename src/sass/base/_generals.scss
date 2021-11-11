@@ -1,0 +1,10 @@
+.row {
+    --row-max-width: 67.125em;
+    max-width: var(--row-max-width);
+    margin-left: auto;
+    margin-right: auto;
+
+    &-slim {
+        --row-max-width: 42.5em;
+    }
+}

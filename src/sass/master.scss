@@ -1,0 +1,28 @@
+		// Checklist:
+		//
+		// move all other css from this file to another file like (base) or (header)
+		// primary should be actual color, not white, so you can use color-base instad and color-base-invert for black
+		// format your code always to have proper spacings, etc.
+		// setup your formatter in a way that it follows the above.
+		// Undo the linter comment in gulp and foloow it's requirements;
+		// use the configs from dx-starter here; https://github.com/DevriX/DX-Starter/blob/master/.sass-lint.yml
+		//
+		// do not use IDs
+		//@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+		
+		@import "./base/fonts";
+		@import "./base/settings";
+		@import "./base/normalize";
+		@import "./base/generals";
+		
+		//base layouts
+		@import "./layouts/sections";
+		@import "./layouts/header";
+		
+		//components
+		@import "./components/lists";
+		@import "./components/buttons";
+		
+		
+		//footer
+		@import "./layouts/footer";
