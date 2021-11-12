@@ -1,0 +1,31 @@
+.entry {
+	&-title {
+        line-height: 1.2;
+        color: var(--color-primary);
+		a {
+			color: inherit;
+		}
+	}
+    
+    &-thumbnail{
+        vertical-align: middle;
+		
+        a,
+        img{
+            display: block;
+        }
+    }
+    
+	&-content {		
+	}
+}
+
+.entry-list{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	
+	.entry-thumbnail{
+		margin-right: var(--gap-small);
+	}
+}

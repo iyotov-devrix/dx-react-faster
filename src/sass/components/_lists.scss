@@ -1,4 +1,4 @@
-.navlist {
+.navbar-list {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -6,21 +6,8 @@
     &-inline {
         display: inline;
 
-        .navlist-item {
+        .navbar-list-item {
             display: inline;
-        }
-    }
-}
-
-.site-navigation {
-    .navlist-item {
-        margin-left: 3.5em;
-    }
-
-    @media screen and (max-width: 36em) {
-        .navlist-item {
-            display: block;
-            margin-bottom: var(--gap-xsmall);
         }
     }
 }

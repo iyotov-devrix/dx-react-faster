@@ -3,10 +3,11 @@
   --color-secondary: #F84444;
   --color-button-bg: #F0F0F0;
   --color-button-bg-danger:#F84444;
-  --gap-xsmall: 1.375em;
-  --gap-small: 1.75em;
-  --gap-normal: 2.375em;
-  --gap-big: 2.75em;
+  --site-sidebar-width: 16.25em;
+  --gap-xsmall: 0.5em;
+  --gap-small: 1em;
+  --gap-normal: 2.5em;
+  --gap-big: 4em;
   --section-main-gap: 1.5em 0 ;
   --font-primary: 'Roboto', sans-serif;
   --font-secondary: 'PT Serif', serif; }
@@ -194,7 +195,7 @@ th {
 
 .row {
   --row-max-width: 72.5em;
-  --row-gap: 2.5em;
+  --row-gap: var(-gap-normal);
   width: calc(100% - var(--row-gap) * 2);
   max-width: var(--row-max-width);
   margin-left: auto;
@@ -203,27 +204,58 @@ th {
 .section-fullwidth {
   padding: var(--section-gap); }
 
-.navlist {
+.layout-standard {
+  --grid-columns-base: 3;
+  display: grid;
+  gap: var(--gap-normal);
+  position: relative; }
+
+.layout-post {
+  grid-template-columns: var(--site-sidebar-width) 1fr var(--site-sidebar-width); }
+
+.layout-recents {
+  grid-template-columns: repeat(var(--grid-columns-base), 1fr); }
+
+.navbar-list {
   list-style: none;
   margin: 0;
   padding: 0; }
 
-.navlist-inline {
+.navbar-list-inline {
   display: inline; }
 
-.navlist-inline .navlist-item {
+.navbar-list-inline .navbar-list-item {
   display: inline; }
-
-.site-navigation .navlist-item {
-  margin-left: 3.5em; }
-
-@media screen and (max-width: 36em) {
-  .site-navigation .navlist-item {
-    display: block;
-    margin-bottom: var(--gap-xsmall); } }
 
 .button {
   --btn-bg: var(--color-secondary);
   --btn-color: var(--color-primary); }
+
+.entry-title {
+  line-height: 1.2;
+  color: var(--color-primary); }
+
+.entry-title a {
+  color: inherit; }
+
+.entry-thumbnail {
+  vertical-align: middle; }
+
+.entry-thumbnail a,
+.entry-thumbnail img {
+  display: block; }
+
+.entry-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center; }
+
+.entry-list .entry-thumbnail {
+  margin-right: var(--gap-small); }
+
+.site-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
 
 /*# sourceMappingURL=master.css.map */

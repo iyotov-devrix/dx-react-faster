@@ -1,6 +1,6 @@
 .row {
     --row-max-width: 72.5em;
-    --row-gap: 2.5em;
+    --row-gap: var(-gap-normal);
     width: calc(100% - var(--row-gap) * 2 );
     max-width: var(--row-max-width);
     margin-left: auto;

@@ -18,11 +18,11 @@
 		//base layouts
 		@import "./layouts/sections";
 		@import "./layouts/header";
-		
+		@import "./layouts/layout-blog";
 		//components
 		@import "./components/lists";
 		@import "./components/buttons";
-		
+		@import "./components/entries";
 		
 		//footer
 		@import "./layouts/footer";
