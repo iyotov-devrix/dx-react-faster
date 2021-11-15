@@ -1,14 +1,15 @@
 :root {
     //colors
     --color-primary: #000000;
+    --color-primary-inverted: #FFFFFF;
     --color-secondary: #F84444;
     --color-button-bg: #F0F0F0;
     --color-button-bg-danger:#F84444;
 
 
     //layouts 
-    --site-sidebar-width: 16.25em;
-
+    --site-sidebar-left-width: 13.75em;
+    --site-sidebar-right-width: 16.25em;
     //spacing
     --gap-xsmall: 0.5em;
     --gap-small: 1em;

@@ -1,3 +1,15 @@
 .site-header {
-   
+    .section-header-top {
+        --text-color: var(--color-primary-inverted);
+        background-color: var(--color-secondary);
+		color: var(--text-color);
+        
+		a {
+            color: inherit;
+        }
+
+        svg {
+            fill: var(--text-color);
+        }
+    }
 }
