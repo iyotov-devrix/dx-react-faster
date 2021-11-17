@@ -1,8 +1,8 @@
 .entry {
 	&-title {
-        line-height: 1.2;
         color: var(--color-primary);
-		a {
+		
+        a {
 			color: inherit;
 		}
 	}
@@ -13,6 +13,7 @@
         a,
         img{
             display: block;
+            max-width: 100%;
         }
     }
     

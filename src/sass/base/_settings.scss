@@ -1,21 +1,29 @@
+$breakpoit-tablet-max: 48em;
+
 :root {
     //colors
     --color-primary: #000000;
-    --color-primary-inverted: #FFFFFF;
+    --color-primary-inverted: #FFFFFF;;
+    --color-primary-inverted-darken: #F0F0F0;
+    --color-primary-inverted-darker:#E0E0E0;
     --color-secondary: #F84444;
-    --color-button-bg: #F0F0F0;
-    --color-button-bg-danger:#F84444;
+    --color-danger:#F84444;
+    --color-danger-darken:#E03030;
 
-
+    //lines
+    --border-line: 1px solid #DDD;
+    
     //layouts 
     --site-sidebar-left-width: 13.75em;
     --site-sidebar-right-width: 16.25em;
+    
     //spacing
     --gap-xsmall: 0.5em;
     --gap-small: 1em;
     --gap-normal: 2.5em;
     --gap-big: 4em;
-    --section-main-gap: 1.5em 0 ;
+    --section-gap: 0;
+    --section-main-gap: 4em 0 2em;
     --font-primary: 'Roboto', sans-serif;
     --font-secondary: 'PT Serif', serif;
 }

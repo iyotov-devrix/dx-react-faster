@@ -1,4 +1,48 @@
 .button {
-    --btn-bg: var(--color-secondary);
-    --btn-color: var(--color-primary);
+    --button-color-bg: var(--color-primary-inverted);
+	--button-color-bg-hover: var(--color-primary-inverted-darken);
+	--button-color: var(--color-primary);
+	--button-padding: 0.875em 1.5em;
+	--button-border-color: var(--button-color-bg);
+	--button-border-radius: 0.25em;
+	
+	display: inline-block;
+	border-radius: var(--button-border-radius);
+	background: var(--button-color-bg);
+	border:1px solid;
+	border-color: var(--button-border-color);
+    padding: var(--button-padding);
+	color: var(--button-color);
+    line-height: 1.3;
+	text-decoration: none;
+	transition: all 125ms linear;
+
+	&:hover{
+		--button-color-bg: var(--button-color-bg-hover);
+	}
+
+	&-primary {
+		--button-color-bg: var(--color-primary-inverted-darken);
+		--button-color: var(--color-primary);
+		--button-color-bg-hover: var(--color-primary-inverted-darker);
+	}
+
+	&-danger{
+		--button-color-bg: var(--color-danger);
+		--button-color-bg-hover: var(--color-danger-darken);
+		--button-color: var(--color-primary-inverted);
+	}
+
+	&-outline {
+		background: transparent;
+	}
+
+	&-small{
+		--button-padding: 0.375em 0.75em;
+	}
+
+	//icons
+	&-icon{
+		--icon-color:inherit
+	}
 }

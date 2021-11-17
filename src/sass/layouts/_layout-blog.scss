@@ -1,5 +1,7 @@
 .layout-standard {
 	--grid-columns-base: 3;
+	border-bottom: var(--border-line);
+	padding-bottom: var(--gap-normal);
 	display: grid;
 	column-gap: var(--gap-normal);
 	row-gap: var(--gap-normal);

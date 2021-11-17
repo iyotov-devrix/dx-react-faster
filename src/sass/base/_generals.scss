@@ -6,3 +6,15 @@
     margin-left: auto;
     margin-right: auto;
 }
+a{
+    color: var(--color-primary);
+    transition: color 125ms  linear;
+    
+    &:hover{
+        color: var(--color-secondary);
+    }
+}
+
+.site-title-text{
+    font-size: 1.375em;
+}
