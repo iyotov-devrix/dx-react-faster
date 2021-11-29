@@ -1,7 +1,10 @@
 .entry {
 	&-title {
         color: var(--color-primary);
-		
+		font-size: 2em;
+        font-weight: 700;
+        margin: 0;
+        
         a {
 			color: inherit;
 		}
@@ -17,7 +20,10 @@
         }
     }
     
-	&-content {		
+	&-content {
+        color: var( --color-post-content);
+        font-size: 1.125em;
+        margin-top: 1.625em;
 	}
 }
 
@@ -26,4 +32,31 @@
     grid-template-columns: 2.5em 1fr;
     align-items: center;
     gap: var(--gap-small);
+    margin-bottom: 0.75em;
+}
+
+.entry-box{
+    margin-bottom: 2.5em;
+    
+    .entry-title{
+        font-size: 1.125em;	
+        font-weight: 400;
+        margin-top: 0.625em;
+    }
+
+}
+
+.layout-post-left{
+    .entry-list{
+        .entry-title{
+            font-size: 1em;
+            font-weight: 500;
+        }
+    }
+}
+
+.layout-post-center{
+    .entry-title{
+        margin-bottom: 1em;
+    }
 }

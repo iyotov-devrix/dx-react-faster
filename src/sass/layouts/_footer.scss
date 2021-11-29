@@ -1,5 +1,11 @@
 .site-footer{
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+	padding: var(--gap-normal) 0;
+	
+	.row-footer{
+		@extend %div-flex-between;
+	}
+
+	.site-title-text{
+		margin: 0;
+	}
 }

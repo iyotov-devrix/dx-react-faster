@@ -1,4 +1,7 @@
-$breakpoit-tablet-max: 48em;
+$breakpoint-phones-max: 480px;
+$breakpoint-phones-big-max:640px;
+$breakpoint-tablet-max: 767px;
+$breakpoint-tablet-big-max: 1023px;
 
 :root {
     //colors
@@ -7,11 +10,14 @@ $breakpoit-tablet-max: 48em;
     --color-primary-inverted-darken: #F0F0F0;
     --color-primary-inverted-darker:#E0E0E0;
     --color-secondary: #F84444;
+    --color-post-content: #424242;
     --color-danger:#F84444;
     --color-danger-darken:#E03030;
+    --color-overlay-bg: #000000BB;
 
     //lines
     --border-line: 1px solid #DDD;
+    --border-line-danger: 1px solid var(--color-danger);
     
     //layouts 
     --site-sidebar-left-width: 13.75em;
@@ -23,7 +29,6 @@ $breakpoit-tablet-max: 48em;
     --gap-normal: 2.5em;
     --gap-big: 4em;
     --section-gap: 0;
-    --section-main-gap: 4em 0 2em;
+    --section-main-gap: 4em 0 0.875em;
     --font-primary: 'Roboto', sans-serif;
-    --font-secondary: 'PT Serif', serif;
 }

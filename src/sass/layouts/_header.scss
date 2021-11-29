@@ -1,14 +1,23 @@
 .site-header {
-    border-bottom: var(--border-line);
+    border-bottom: var(--border-line);    
 
     &-main{
         display: flex;
         align-items: center;
         flex-direction: row;
+        position: relative;
 
-        .header-buttons{
+        .site-header-buttons{
+            display: flex;
             margin-left: auto;
             margin-right: 0;
+            
+            .button{
+                margin-left: 1em;
+            }
+        }
+        @media screen and (max-width: $breakpoint-phones-max) {
+
         }
     }
 

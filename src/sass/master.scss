@@ -19,11 +19,13 @@
 		@import "./layouts/sections";
 		@import "./layouts/header";
 		@import "./layouts/layout-blog";
+		@import "./layouts/layout-recent-posts";
 		//components
 		@import "./components/lists";
 		@import "./components/buttons";
 		@import "./components/responsive-images";
 		@import "./components/entries";
+		@import "./components/slide-from-left";
 		
 		//footer
 		@import "./layouts/footer";

@@ -1,0 +1,26 @@
+
+
+.recent-posts-header{
+    @extend %div-flex-between;
+
+    .recent-posts-title{
+        margin: 0.125em 0;
+    }
+}
+
+.recent-posts-footer{
+    margin-bottom: 3em;
+}
+
+.layout-recents {
+    grid-template-columns: repeat(var(--grid-columns-base), 1fr);
+    row-gap: var(--row-gap);
+
+	@media screen and (max-width: $breakpoint-tablet-big-max) {
+        --grid-columns-base: 2;
+    }
+
+    @media screen and (max-width: $breakpoint-tablet-max) {
+		--grid-columns-base: 1;
+	}
+}
