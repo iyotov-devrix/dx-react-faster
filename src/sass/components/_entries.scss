@@ -33,6 +33,10 @@
     align-items: center;
     gap: var(--gap-small);
     margin-bottom: 0.75em;
+
+    @media screen and (max-width: $breakpoint-phones-max) {
+        grid-template-columns: 2em 1fr;
+    }
 }
 
 .entry-box{

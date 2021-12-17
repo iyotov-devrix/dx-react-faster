@@ -18,7 +18,8 @@ $breakpoint-tablet-big-max: 1023px;
     //lines
     --border-line: 1px solid #DDD;
     --border-line-danger: 1px solid var(--color-danger);
-    
+    //boxes
+    --global-border-radius: 0.25em;
     //layouts 
     --site-sidebar-left-width: 13.75em;
     --site-sidebar-right-width: 16.25em;

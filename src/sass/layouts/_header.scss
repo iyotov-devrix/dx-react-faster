@@ -12,12 +12,9 @@
             margin-left: auto;
             margin-right: 0;
             
-            .button{
+            & > *{
                 margin-left: 1em;
             }
-        }
-        @media screen and (max-width: $breakpoint-phones-max) {
-
         }
     }
 

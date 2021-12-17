@@ -4,7 +4,7 @@
 	--button-color: var(--color-primary);
 	--button-padding: 0.875em 1.5em;
 	--button-border-color: var(--button-color-bg);
-	--button-border-radius: 0.25em;
+	--button-border-radius: var(--global-border-radius);
 	
 	display: inline-block;
 	border-radius: var(--button-border-radius);

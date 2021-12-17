@@ -69,6 +69,18 @@
         &-item{
             margin-left: 2em;
         }
+
+        @media screen and (max-width: $breakpoint-tablet-big-max) {
+            padding-top: var(--gap-normal);
+            padding-bottom: var(--gap-normal);
+            
+            &-item{
+                display: block;
+                margin-bottom: var(--gap-xsmall);
+                margin-left: 0;
+                font-size: 1.5em;
+            }
+        }
     }
 
    
